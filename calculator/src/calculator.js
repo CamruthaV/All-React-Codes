@@ -25,7 +25,7 @@ const Calculator = () => {
     <div className="calculator">
       <input type="text" value={result} readOnly />
       <div className="keypad">
-        <button onClick={clear} id="clear">Clear</button>
+        <button onClick={clear} id="clear">Clear All</button>
         <button name="/" onClick={handleClick}>/</button>
         <button name="7" onClick={handleClick}>7</button>
         <button name="8" onClick={handleClick}>8</button>
